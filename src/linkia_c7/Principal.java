@@ -21,7 +21,8 @@ public class Principal extends javax.swing.JFrame {
     public Principal() {
         initComponents();
         //setIconImage(new ImageIcon(getClass().getResource("../imagenes/icon.png")).getImage());
-        
+        Image icon = new ImageIcon(getClass().getResource("../imagenes/icon.png")).getImage();
+        setIconImage(icon);
     }
 
     /**
